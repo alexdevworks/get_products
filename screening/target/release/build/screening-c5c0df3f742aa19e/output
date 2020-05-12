@@ -1,0 +1,3 @@
+key: "Product Designation", values: ["Product Designation", "Mac Book Pro 13\"", "Mac Book Pro 16\"", "iPhone X"]
+key: "SKU", values: ["SKU", "MP13-0001", "MP16-0001", "IPX-0001"]
+key: "Unit Price (USD)", values: ["Unit Price (USD)", "1299", "1599", "1199"]

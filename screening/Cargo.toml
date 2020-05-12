@@ -1,0 +1,21 @@
+[package]
+name = "screening"
+version = "0.1.0"
+authors = ["Alexander B. Falgui <alexdevworks@gmail.com>"]
+edition = "2018"
+build = "src/main.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+calamine = "0.16.1"
+multimap = "0.8.1"
+cbindgen = "0.5"
+
+[build-dependencies]
+cbindgen = "0.5"
+calamine = "0.16.1"
+multimap = "0.8.1"
+
+[lib]
+name = "example"
+crate-type = ["cdylib"]
